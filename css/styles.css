@@ -1,0 +1,52 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border-spacing: 0;
+    border: 1px solid;
+    background-color: rgba(0, 0, 84, 0.379);
+}
+
+tr {
+    height: 45px;
+}
+
+td,
+th {
+    border: 1px solid black;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+th {
+    background-color: rgba(0, 0, 84, 0.379);
+    color: #fff;
+}
+
+caption{
+    font-weight: bold;
+    font-size: 200%;
+    margin-bottom: 20px;
+}
+
+.col-1 {
+    background-color:rgba(0, 3, 84, 0.379);
+}
+
+.col-5 {
+    background-color:rgba(145, 145, 145, 0.379);
+}
+
+.dag {
+    font-weight: bold;
+}
+.lunch {
+    font-weight: bold;
+    font-size: 130%;
+    
+}
